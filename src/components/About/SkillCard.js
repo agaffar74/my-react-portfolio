@@ -1,5 +1,7 @@
+// Importing components
 import React from "react";
 import styles from "./SkillCard.module.css";
+
 
 const SkillCard = (props) => {
   return (
