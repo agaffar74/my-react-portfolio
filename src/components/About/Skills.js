@@ -1,5 +1,7 @@
+//Importing component from react
 import React from "react";
 
+//Importing relevent file
 import styles from "./Skills.module.css";
 
 const Skills = () => {

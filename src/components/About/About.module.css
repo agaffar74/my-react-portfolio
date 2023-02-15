@@ -38,7 +38,8 @@
     text-transform: uppercase;
     padding-left: 0px;
     position: relative;
-    color: #003366;
+    color: #cc3300;
+    font-weight: bold;
     display: inline-block;    
     font-style: normal;
     font-weight: 500;
@@ -71,9 +72,10 @@
     text-transform: uppercase;
     padding-left: 0px;
     position: relative;
-    color: #003366;
+    color: #cc3300;
+    font-style: bold;
     display: inline-block;    
-    font-style: normal;
+    font-weight: normal;
     font-weight: 500;
     font-size: 16px;
     margin-bottom: 35px;
