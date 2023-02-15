@@ -1,9 +1,13 @@
+//Importingcomponent from react
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+//Importing App file and Index.css file
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 import './index.css';
 
+//Importing reportWebVitals components
+import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
