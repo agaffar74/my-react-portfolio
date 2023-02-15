@@ -1,0 +1,44 @@
+.container {
+    flex: 0.5 1;
+  }
+  
+
+  
+  .timeline {
+    text-align: start;
+    padding-left: 1rem;
+   
+  }
+  
+  .timeline_item {
+    padding: 2rem;
+    padding-bottom: 4rem;
+    padding-top: 0;
+    color: #ff6600;
+  }
+  
+  .timeline_item:first-child {
+   margin-top: 3rem;
+  }
+  
+  .timeline_item:not(:last-child) {
+    border-left: 2px solid var(--light-4);
+  }
+  
+  .timeline_title {
+    font-size: 1.2rem;
+    margin-top: -0.5rem;
+    position: relative;
+    color: #003366;
+  }
+  
+  .timeline_title::after {
+    content: "";
+    position: absolute;
+    left: -2.5rem;
+    top: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #003366;
+  }

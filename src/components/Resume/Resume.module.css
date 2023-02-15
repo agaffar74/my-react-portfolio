@@ -1,0 +1,61 @@
+.resume_section {
+    height: 100vh;
+    padding: 0px 60px;
+  }
+  
+  .container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    max-width: 1280px;
+    margin: auto;
+  }
+  
+  .heading {
+    padding: 90px 0px 70px;
+  }
+  
+  .resume_section {
+    padding: 0px 60px;
+  }
+  
+  .resume_section .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #003366;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .resume_section {
+      height: 50vh;
+    }
+  }
+  
+  @media only screen and (max-width: 968px) {
+    .resume_section {
+      height: auto;
+    }
+  
+    .heading {
+      padding: 50px 0px 40px;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+    }
+  }
+  
+  @media only screen and (max-width: 425px) {
+    .resume_section {
+      padding: 0px 30px;
+    }
+  
+    .heading {
+      padding: 30px 0px;
+    }
+  }
