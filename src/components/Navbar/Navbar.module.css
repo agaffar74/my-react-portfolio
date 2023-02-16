@@ -72,7 +72,7 @@
     cursor: pointer;
     position: relative;
     border: 1px solid var(--light-2);
-    background: #ff3300;
+    background: #237ee6;
   }
   
   .nav_resume_btn:hover {
