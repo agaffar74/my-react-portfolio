@@ -1,6 +1,6 @@
 {
   "homepage": "https://agaffar74.github.io/my-react-portfolio",
-  "name": "static-site",
+  "name": "my-react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
