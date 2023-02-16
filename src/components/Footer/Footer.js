@@ -2,6 +2,7 @@ import React from "react";
 import { FiGithub } from "react-icons/fi";
 import { FiLinkedin } from "react-icons/fi";
 import { FiInstagram } from "react-icons/fi";
+import { FiFacebook } from "react-icons/fi";
 
 import styles from "./Footer.module.css";
 
@@ -37,6 +38,12 @@ function Footer() {
         >
           <FiInstagram />
         </a>
+        <a 
+          className={styles.socialIcon}
+          href="https://www.facebook.com/a_gaffar74/" 
+          target="_blank" rel="noreferrer">
+            <FiFacebook />
+          </a>
       </div>
 
       <p class="copyright">

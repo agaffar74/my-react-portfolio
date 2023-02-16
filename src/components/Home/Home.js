@@ -4,6 +4,7 @@ import styles from "./Home.module.css";
 import { FiLinkedin } from "react-icons/fi";
 import { FiGithub } from "react-icons/fi";
 import { FiInstagram } from "react-icons/fi";
+import { FiFacebook } from "react-icons/fi";
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
           <div className={styles.cover}></div>
           <img
             className={styles.image}
-            src={process.env.PUBLIC_URL + "../profile/profilePhoto.png"}
+            src={process.env.PUBLIC_URL + "../profile/profilePhoto.png"} alt = "Personal Pic"
           />
         </div>
       </div>
@@ -35,9 +36,11 @@ const Home = () => {
           </a> <a href="https://github.com/agaffar74" target="_blank" rel="noreferrer">
             <FiGithub />
           </a>
-
           <a href="https://www.instagram.com/a_gaffar74/" target="_blank" rel="noreferrer">
             <FiInstagram />
+          </a>
+          <a href="https://www.facebook.com/a_gaffar74/" target="_blank" rel="noreferrer">
+            <FiFacebook />
           </a>
         </div>
       </div>

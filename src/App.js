@@ -1,5 +1,5 @@
 //Importing React and createContect from react
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import { createContext } from "react";
 
 //Importing all relevent files
@@ -20,14 +20,6 @@ export const ThemeContext = createContext(null);
 const App = () => {
   const [theme] = useState("light");
 
-  const body = document.getElementsByTagName("BODY")[0];
-
-  useEffect(() => {
-   {
-      body.style.background = "#ffffff";
-      body.style.color = "#333333";
-    }
-  }, [theme]);
 
   return (
     <ThemeContext.Provider value={{ theme }}>
