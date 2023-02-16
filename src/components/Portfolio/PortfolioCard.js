@@ -53,7 +53,7 @@ const PortfolioCard = () => {
       link: "#",
     },
     {
-      img: "/portfolios/Team-Profile-Generator.PNG",
+      img: "/portfolios/Team-Profile-Generator.png",
       name: "Team Profile Generator",
       tech: ["javaScript", "HTML", "CSS"],
       link: "#",
@@ -65,13 +65,13 @@ const PortfolioCard = () => {
       link: "#",
     },
     {
-      img: "/portfolios/Bootstrap+Portfolio.PNG",
+      img: "/portfolios/Bootstrap_Portfolio.png",
       name: "Bootstrap Portfolio",
-      tech: ["javaScript", "HTML", "CSS"],
+      tech: ["javaScript", "HTML", "Bootstrap", "CSS"],
       link: "#",
     },
     {
-      img: "/portfolios/My_Portfolio.PNG",
+      img: "/portfolios/My_Portfolio.png",
       name: "My portfolio",
       tech: [ "HTML", "CSS"],
       link: "#",
