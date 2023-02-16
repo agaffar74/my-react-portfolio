@@ -42,7 +42,7 @@
   }
   
   .nav_link {
-    color: whitesmoke;
+    color: #237ee6;
     cursor: pointer;
     text-decoration: none;
     margin-left: 26px;
@@ -63,7 +63,7 @@
     color:#fcfdfd;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     padding: 16px 24px;
     line-height: 17px;
     border-radius: 8px;
@@ -72,7 +72,7 @@
     cursor: pointer;
     position: relative;
     border: 1px solid var(--light-2);
-    background: #237ee6;
+    box-shadow: rgba(47, 111, 207, 0.35) 0px 5px 15px;
   }
   
   .nav_resume_btn:hover {
@@ -110,7 +110,7 @@
       margin-top: 10px;
       font-size: 20px;
       cursor: pointer;
-      color:white;
+      color:#237ee6;
     }
   
     .navMobile {
