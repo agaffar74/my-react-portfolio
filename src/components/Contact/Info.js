@@ -1,12 +1,14 @@
+//Importing components from react
 import React from "react";
-import styles from "./Info.module.css";
-
 import { CiMapPin } from "react-icons/ci";
 import { CiMail } from "react-icons/ci";
 
+//Importing relevent file to work with info
+import styles from "./Info.module.css";
 
 
-function Info() {
+
+const Info = () => {
   return (
     <div className={styles["info"]}>
       <div className={styles["info-item"]}>
