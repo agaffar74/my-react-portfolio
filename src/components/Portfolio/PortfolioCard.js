@@ -41,37 +41,37 @@ const PortfolioCard = () => {
 
   const portfolios = [
     {
-      img: "../portfolios/Weather_Dashboard.png",
+      img: "/portfolios/Weather_Dashboard.png",
       name: "Weather Dashboard.",
       tech: ["jQuery", "HTML", "JavaScript", "CSS"],
       link: "#",
     },
     {
-      img: "../portfolios/Work_Day_Planner.png",
+      img: "/portfolios/Work_Day_Planner.png",
       name: "Work Day Planner",
       tech: ["Javascript", "HTML", "CSS", "MOMENT"],
       link: "#",
     },
     {
-      img: "../portfolios/Team-Profile-Generator.PNG",
+      img: "/portfolios/Team-Profile-Generator.PNG",
       name: "Team Profile Generator",
       tech: ["javaScript", "HTML", "CSS"],
       link: "#",
     },
     {
-      img: "../portfolios/Coding_Quiz.png",
+      img: "/portfolios/Coding_Quiz.png",
       name: "Quiz App",
       tech: ["javaScript", "HTML", "CSS"],
       link: "#",
     },
     {
-      img: "../portfolios/Bootstrap+Portfolio.PNG",
+      img: "/portfolios/Bootstrap+Portfolio.PNG",
       name: "Bootstrap Portfolio",
       tech: ["javaScript", "HTML", "CSS"],
       link: "#",
     },
     {
-      img: "../portfolios/My_Portfolio.PNG",
+      img: "/portfolios/My_Portfolio.PNG",
       name: "My portfolio",
       tech: [ "HTML", "CSS"],
       link: "#",
