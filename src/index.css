@@ -59,7 +59,7 @@ a {
 
 body {
   /* Margin: 0; */
-  font-size: 16px;
+  font-size: 18px;
   line-height: 28px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 :root {
-  --purple: #7e74f1;
+  --purple: #549105;
   --light: #fbfbfb;
 }
 

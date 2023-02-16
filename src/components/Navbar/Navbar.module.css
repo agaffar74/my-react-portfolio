@@ -68,6 +68,7 @@
     line-height: 17px;
     border-radius: 8px;
     font-family: inherit;
+    font-size: 20px;
     cursor: pointer;
     position: relative;
     border: 1px solid var(--light-2);
