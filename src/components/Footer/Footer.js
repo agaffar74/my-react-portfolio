@@ -1,12 +1,14 @@
+//Imported components from react
 import React from "react";
 import { FiGithub } from "react-icons/fi";
 import { FiLinkedin } from "react-icons/fi";
 import { FiInstagram } from "react-icons/fi";
 import { FiFacebook } from "react-icons/fi";
 
+//Imported relevent file here
 import styles from "./Footer.module.css";
 
-function Footer() {
+const Footer = () => {
   const year = () => {
     const d = new Date();
     let y = d.getFullYear();
