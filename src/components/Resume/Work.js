@@ -22,8 +22,7 @@ const Work = () => {
             of a care setting, ensuring that the practice runs smoothly
             </p2>
           </div>
-        </div>
-        <div className={styles.timeline}>
+
           <div className={styles.timeline_item}>
             <h4 className={styles.timeline_title}>
             IT Technician Traineeship  - IT Career Switch Ltd, London

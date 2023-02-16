@@ -1,3 +1,4 @@
+//Imported relevent components
 import React from "react";
 import styles from "./Education.module.css";
 
