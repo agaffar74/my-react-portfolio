@@ -9,7 +9,7 @@ import { BsLink } from "react-icons/bs";
 //Imported relevent file
 import styles from "./PortfolioCard.module.css";
 
-function PortfolioCard() {
+const PortfolioCard = () => {
   const [sliderRef, setSliderRef] = useState(null);
 
   const sliderSettings = {

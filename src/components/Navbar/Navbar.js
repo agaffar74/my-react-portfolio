@@ -5,7 +5,7 @@ import { IoClose } from "react-icons/io5";
 import { useState } from "react";
 
 
-function Navbar() {
+const Navbar = () => {
   const [isMenuClicked, setIsMenuClicked] = useState(false);
 
   const toggleMobileMenu = () => {
@@ -16,7 +16,7 @@ function Navbar() {
     <nav className={styles.nav_container}>
       <div className={styles.desktopMenu}>
         <div className={styles.nav_left}>
-          <a href="#home">AG.</a>
+          <a href="#home">AG</a>
         </div>
         <div className={styles.nav}>
           <a href="#about" className={styles.nav_link}>
@@ -47,7 +47,7 @@ function Navbar() {
       <div className={styles.mobileMenu}>
         {/* Hamburger menu */}
         <div className={styles.nav_left}>
-          <a href="#home">AG.</a>
+          <a href="#home">AG</a>
         </div>
         <div
           className={`${styles.navMobile} ${
