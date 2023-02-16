@@ -20,7 +20,6 @@ export const ThemeContext = createContext(null);
 const App = () => {
   const [theme] = useState("light");
 
-
   return (
     <ThemeContext.Provider value={{ theme }}>
       <div className="App" id={theme}>
