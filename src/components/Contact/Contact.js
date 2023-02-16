@@ -1,9 +1,12 @@
+//Importing components from react
 import React from "react";
 import Form from "./Form";
 import Info from "./Info";
+
+//Importing relevent file
 import styles from "./Contact.module.css";
 
-function Contact() {
+const Contact = () => {
   return (
     <section className={styles.contact_section} id="contact">
       <div className={styles.heading}>
