@@ -65,7 +65,7 @@ const PortfolioCard = () => {
       link: "#",
     },
     {
-      img: "/portfolios/Bootstrap_Portfolio.png",
+      img: "/portfolios/Bootstrap+Portfolio.png",
       name: "Bootstrap Portfolio",
       tech: ["javaScript", "HTML", "Bootstrap", "CSS"],
       link: "#",
