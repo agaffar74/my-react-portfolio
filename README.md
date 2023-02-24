@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is my portfolio site created using React.js as well as using other technologies to develop the initial scaffolding of my portfolio site from scratch.
+This is my portfolio site that I have created using React.js as well as using other technologies to learn about how to develop the initial scaffolding of my portfolio site from scratch.
 
 ## Required Components
 My portfolio have rendered the following components:
