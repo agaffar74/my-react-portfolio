@@ -10,6 +10,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+//Rendering the app to index.html page
 root.render(
   <React.StrictMode>
     <App />

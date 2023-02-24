@@ -1,8 +1,10 @@
+//Importing relevent components
 import React from "react";
 import Education from "./Education";
 import Work from "./Work";
 import styles from "./Resume.module.css";
 
+//function for Resume item
 const Resume = () => {
   return (
     <section className={styles.resume_section} id="resume">

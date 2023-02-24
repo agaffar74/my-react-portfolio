@@ -20,6 +20,7 @@ export const ThemeContext = createContext(null);
 const App = () => {
   const [theme] = useState("light");
 
+  //Setting all the modules to be in order
   return (
     <ThemeContext.Provider value={{ theme }}>
       <div className="App" id={theme}>

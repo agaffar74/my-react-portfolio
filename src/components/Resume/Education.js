@@ -2,7 +2,7 @@
 import React from "react";
 import styles from "./Education.module.css";
 
-
+//Function for Education section
 const Education = () => {
   return (
     <div className={styles.container}>

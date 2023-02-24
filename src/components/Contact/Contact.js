@@ -6,6 +6,7 @@ import Info from "./Info";
 //Importing relevent file
 import styles from "./Contact.module.css";
 
+//function for Contact section
 const Contact = () => {
   return (
     <section className={styles.contact_section} id="contact">

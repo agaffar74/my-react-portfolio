@@ -1,7 +1,8 @@
+//Importing relevent components
 import React from "react";
 import styles from "./Work.module.css";
 
-
+//function for Work section
 const Work = () => {
   return (
     <div className={styles.container}>

@@ -1,3 +1,4 @@
+//Imported relevent components
 import React from "react";
 import styles from "./Home.module.css";
 
@@ -6,6 +7,7 @@ import { FiGithub } from "react-icons/fi";
 import { FiInstagram } from "react-icons/fi";
 import { FiFacebook } from "react-icons/fi";
 
+//Function for Home section and return
 const Home = () => {
   return (
     <section className={styles.home_section} id="home">

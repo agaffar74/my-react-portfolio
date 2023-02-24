@@ -1,10 +1,11 @@
+//Imported relevent components
 import styles from "./Navbar.module.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 
 import { useState } from "react";
 
-
+//function for Navbar
 const Navbar = () => {
   const [isMenuClicked, setIsMenuClicked] = useState(false);
 

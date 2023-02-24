@@ -1,7 +1,9 @@
+//Importing relevent components
 import React from "react";
 import PortfolioCard from "./PortfolioCard";
 import styles from "./Portfolios.module.css";
 
+//function for Portfolios
 const Portfolios = () => {
   return (
     <section className={styles.work_section} id="work">

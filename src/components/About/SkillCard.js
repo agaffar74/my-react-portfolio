@@ -2,7 +2,7 @@
 import React from "react";
 import styles from "./SkillCard.module.css";
 
-
+//function for skillcard
 const SkillCard = (props) => {
   return (
     <li className={styles["SkillCard"]}>

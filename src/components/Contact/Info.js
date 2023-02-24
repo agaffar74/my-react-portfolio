@@ -7,7 +7,7 @@ import { CiMail } from "react-icons/ci";
 import styles from "./Info.module.css";
 
 
-
+//function for Ino section
 const Info = () => {
   return (
     <div className={styles["info"]}>

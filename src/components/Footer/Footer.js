@@ -8,6 +8,7 @@ import { FiFacebook } from "react-icons/fi";
 //Imported relevent file here
 import styles from "./Footer.module.css";
 
+//function for Footer
 const Footer = () => {
   const year = () => {
     const d = new Date();

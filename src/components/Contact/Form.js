@@ -1,12 +1,14 @@
+//Importing relevent components
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
-
 import styles from "./Form.module.css";
 
+//function for return message
 const Result = () => {
   return <p>Your response has been submitted.</p>;
 };
 
+//function for email form
 const Form = () => {
   const [result, setResult] = useState(false);
 

@@ -39,6 +39,7 @@ const PortfolioCard = () => {
     ],
   };
 
+  //Portfolio data file
   const portfolios = [
     {
       img: "/portfolios/Weather_Dashboard.png",
@@ -65,7 +66,7 @@ const PortfolioCard = () => {
       link: "#",
     },
     {
-      img: "/portfolios/Bootstrap+Portfolio.png",
+      img: "/portfolios/Bootstrap_Portfolio.png",
       name: "Bootstrap Portfolio",
       tech: ["javaScript", "HTML", "Bootstrap", "CSS"],
       link: "#",
@@ -78,6 +79,7 @@ const PortfolioCard = () => {
     },
   ];
 
+  //Returning the value in a card
   return (
     <div className={styles.content}>
       <div className={styles.controls}>
