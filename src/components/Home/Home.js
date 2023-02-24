@@ -27,7 +27,7 @@ const Home = () => {
         </h1>
         {/* <h1 className={styles.heading_2}>I build things for the web.</h1> */}
         <p className={styles.desc}>
-          IT Technician and Frond-End Web Developer
+          IT Technician and Front-End Web Developer
         </p>
         <div className={styles.social_icons}>
           <a
