@@ -17,7 +17,7 @@ const Info = () => {
         </div>
         <div className={styles["content"]}>
           <h4 className={styles["title"]}>Address</h4>
-          <p className={styles["body"]}>London, UK</p>
+          <p className={styles["body"]}>Redbridge, London, UK</p>
         </div>
       </div>
       <div className={styles["info-item"]}>
@@ -26,7 +26,7 @@ const Info = () => {
         </div>
         <div className={styles["content"]}>
           <h4 className={styles["title"]}>Email</h4>
-          <p className={styles["body"]}>a_gaffar74@yahoo.com</p>
+          <p className={styles["body"]}>agaffar74@gmail.com</p>
         </div>
       </div>
     </div>

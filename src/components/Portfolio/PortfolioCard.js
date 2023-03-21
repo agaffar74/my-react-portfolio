@@ -41,6 +41,12 @@ const PortfolioCard = () => {
 
   //Portfolio data file
   const portfolios = [
+        {
+      img: "/portfolios/Energise.png",
+      name: "Energiser - EV Charging Station",
+      tech: ["JavaScript", "HTML", "CSS", "jQuery"],
+      link: "#",
+    },
     {
       img: "/portfolios/Weather_Dashboard.png",
       name: "Weather Dashboard.",
@@ -54,27 +60,9 @@ const PortfolioCard = () => {
       link: "#",
     },
     {
-      img: "/portfolios/Team-Profile-Generator.png",
-      name: "Team Profile Generator",
-      tech: ["javaScript", "HTML", "CSS"],
-      link: "#",
-    },
-    {
       img: "/portfolios/Coding_Quiz.png",
       name: "Quiz App",
       tech: ["javaScript", "HTML", "CSS"],
-      link: "#",
-    },
-    {
-      img: "/portfolios/Bootstrap_Portfolio.png",
-      name: "Bootstrap Portfolio",
-      tech: ["javaScript", "HTML", "Bootstrap", "CSS"],
-      link: "#",
-    },
-    {
-      img: "/portfolios/My_Portfolio.png",
-      name: "My portfolio",
-      tech: [ "HTML", "CSS"],
       link: "#",
     },
   ];

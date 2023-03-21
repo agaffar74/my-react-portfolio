@@ -16,14 +16,24 @@ const About = () => {
       <div className={styles.container}>
         <div className={styles.left}>
         <h3>About Me</h3>
+
           <p className={styles.desc}>
-            I'm a Front-End Developer from London, UK.
+          Front-end web developer with 13+ years of 
+          management experience. Trained at Trilogy 
+          Skills Bootcamp and earned a certificate in 
+          full-stack web development. Innovative 
+          problem-solver passionate about developing 
+          apps; focused on mobile-first design and 
+          development. Strengths in creativity, 
+          teamwork, and building projects from 
+          ideation to execution.
           </p>
           <p className={styles.desc}>
-            Innovative Front End Developer with 1 year experience building 
-            and maintaining responsive websites in the Care Home industry. 
-            Proficient in HTML, CSS, jQuery, JavaScript and React, Node; 
-            plus modern libraries and frameworks.
+          Also completed 
+          an IT Technician Traineeship in 2021 
+          specializing in troubleshooting hardware 
+          and software issues through a series of 
+          courses, practical work and official certifications.
           </p>
         </div>
 

@@ -42,14 +42,14 @@
   }
   
   .nav_link {
-    color: #237ee6;
+    color: #edf1f5;
     cursor: pointer;
     text-decoration: none;
     margin-left: 26px;
   }
   
   .nav_link:hover {
-    color: #ff3300;
+    color: #e65c0c;
   }
   
   .nav_right {
